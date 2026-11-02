@@ -1,11 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>WDD231 - Meu Site - Página Inicial</title>
+
+     <link rel="stylesheet" href="estilos/normalize.css">
+     <link rel="stylesheet" href="estilos/telas-grandes.css">
+     <link rel="stylesheet" href="estilos/telas-pequenas.css">
+
 </head>
 <body>
+    <header>
+        <img src="imagens/casa.svg" alt="Logo do site" width="512" height="512">
+        <span>Site do Paul</span>
+        <button id="ham-btn" class="hamburger"></button>
+    </header>
+    <nav id="nav-bar" class="navegacao">
+        <ul>
+           <li><a href="#">Notícias & Eventos</a></li>
+           <li class="atual"><a href="#">Templos Dedicados</a></li>
+           <li><a href="#">Templos Anunciados</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Templos Dedicados</h1>
+    </main>
+    <footer>
+        <div class="social">
+            <a href="https://github.com" target="_blank"><img src="imagens/github.svg" alt="GitHub" width="16" height="16"></a>
+            <a href="https://linkedin.com" target="_blank"><img src="imagens/linkedin.svg" alt="LinkedIn" width="16" height="16"></a>
+            <a href="https://facebook.com" target="_blank"><img src="imagens/facebook.svg" alt="Facebook" width="16" height="16"></a>
+            <a href="https://twitter.com" target="_blank"><img src="imagens/twitter-x.svg" alt="Twitter" width="16" height="16"></a>
+        </div>
+        <p>Símbolo de Direitos Autorais e ano atual.</p>
+        <p>última atualização</p>
+
+    </footer>
+    <script src="scripts/navegacao.js"></script>
     
 </body>
 </html>
