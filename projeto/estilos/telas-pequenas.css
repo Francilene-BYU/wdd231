@@ -169,3 +169,8 @@ footer {
     background-color: #e6effd;
     border-color: hsl(174, 30%, 50%);
 }
+
+/* ------ MAPA DE LOCALIZAÇÃO ------ */
+iframe {
+    border: 0;
+}
