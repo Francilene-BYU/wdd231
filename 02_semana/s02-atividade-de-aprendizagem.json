@@ -1,0 +1,30 @@
+{
+  "armazem": {
+    "id": "AB0234-7",
+    "gerente": "John Ojo",
+    "localizacao": "Delphi"
+  },
+  "produtos": [
+    {
+      "id": 132,
+      "nome": "Zeeway 300",
+      "categoria": "Bicicleta Elétrica",
+      "preco": 89.99,
+      "emEstoque": true
+    },
+    {
+      "id": 221,
+      "nome": "City Cruiser 300",
+      "categoria": "Bicicleta Urbana",
+      "preco": 99.50,
+      "emEstoque": true
+    },
+    {
+      "id": 367,
+      "nome": "Speedster Road Elite",
+      "categoria": "Bicicleta de Estrada",
+      "preco": 199.00,
+      "emEstoque": false
+    }
+  ]
+}
