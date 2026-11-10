@@ -6,7 +6,7 @@ const container = document.querySelector("#member-container");
 const botaoGrade = document.querySelector("#grid-view");
 const botaoLista = document.querySelector("#list-view");
 
-let membros = [];
+
 
 async function carregarMembros() {
     try {
@@ -16,9 +16,10 @@ async function carregarMembros() {
             throw new Error("Não foi possível carregar os dados.");
         }
 
-        membros = await resposta.json();
+        const membros = await resposta.json();
 
         exibirMembros(membros);
+        
     } catch (erro) {
         console.error("Erro:", erro);
         container.innerHTML = "<p>Não foi possível carregar os associados.</p>";
