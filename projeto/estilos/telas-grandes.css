@@ -30,3 +30,90 @@
         grid-template-columns: repeat(3, 1fr);
     }
 }
+
+
+/* ========================================
+   CONECTA FORTALEZA - ESTILOS PARA TELAS GRANDES
+======================================== */
+
+@media only screen and (min-width: 38rem) {
+
+    /* CABEÇALHO */
+
+    .header-content .hamburger {
+    display: none;
+}
+    .header-content {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .header-content .brand {
+        flex: 0 0 auto;
+    }
+
+    .header-content .navegacao {
+        display: block;
+        width: auto;
+        max-width: none;
+        margin: 0 0 0 auto;
+        border-bottom: none;
+    }
+
+    .header-content .navegacao ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .header-content .navegacao li {
+    white-space: nowrap;
+    }
+
+    .header-content .navegacao a {
+        padding: 0.8rem 12px;
+        border: none;
+        border-radius: 6px;
+    }
+
+    /* CONTEÚDO */
+    .page-intro,
+    .directory-section {
+        max-width: 900px;
+        margin: 24px auto;
+        padding: 20px;
+    }
+
+    .page-intro h1 {
+        margin-left: 0;
+    }
+
+    /* TÍTULO E CONTROLES */
+    .directory-heading {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /* GRADE COM TRÊS COLUNAS */
+    .member-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    /* RODAPÉ */
+    .footer-content {
+        max-width: 900px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        align-items: center;
+    }
+}

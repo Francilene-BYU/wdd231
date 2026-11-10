@@ -1,0 +1,66 @@
+
+[
+  {
+    "nome": "Sabor do Ceará",
+    "endereco": "Avenida Exemplo, 100 - Meireles, Fortaleza - CE",
+    "telefone": "(85) 0000-0001",
+    "website": "https://example.com/sabor-do-ceara",
+    "imagem": "sabor-do-ceara.jpg",
+    "nivel": 3,
+    "descricao": "Restaurante especializado na culinária regional cearense."
+  },
+  {
+    "nome": "Maré Alta Turismo",
+    "endereco": "Rua Exemplo, 200 - Praia de Iracema, Fortaleza - CE",
+    "telefone": "(85) 0000-0002",
+    "website": "https://example.com/mare-alta",
+    "imagem": "mare-alta.jpg",
+    "nivel": 2,
+    "descricao": "Agência de turismo com passeios e experiências pelo Ceará."
+  },
+  {
+    "nome": "TechNord Sistemas",
+    "endereco": "Avenida Exemplo, 300 - Aldeota, Fortaleza - CE",
+    "telefone": "(85) 0000-0003",
+    "website": "https://example.com/technord",
+    "imagem": "technord.jpg",
+    "nivel": 1,
+    "descricao": "Empresa de desenvolvimento de sistemas e soluções digitais."
+  },
+  {
+    "nome": "Casa Bela Decor",
+    "endereco": "Rua Exemplo, 400 - Dionísio Torres, Fortaleza - CE",
+    "telefone": "(85) 0000-0004",
+    "website": "https://example.com/casa-bela",
+    "imagem": "casa-bela.jpg",
+    "nivel": 2,
+    "descricao": "Loja de decoração e artigos para casa."
+  },
+  {
+    "nome": "Fortaleza Contábil",
+    "endereco": "Avenida Exemplo, 500 - Centro, Fortaleza - CE",
+    "telefone": "(85) 0000-0005",
+    "website": "https://example.com/fortaleza-contabil",
+    "imagem": "fortaleza-contabil.jpg",
+    "nivel": 1,
+    "descricao": "Serviços de contabilidade e consultoria empresarial."
+  },
+  {
+    "nome": "Vida Leve Naturais",
+    "endereco": "Rua Exemplo, 600 - Benfica, Fortaleza - CE",
+    "telefone": "(85) 0000-0006",
+    "website": "https://example.com/vida-leve",
+    "imagem": "vida-leve.jpg",
+    "nivel": 1,
+    "descricao": "Comércio de produtos naturais e opções para uma vida saudável."
+  },
+  {
+    "nome": "Sol Nascente Hotel",
+    "endereco": "Avenida Exemplo, 700 - Praia do Futuro, Fortaleza - CE",
+    "telefone": "(85) 0000-0007",
+    "website": "https://example.com/sol-nascente",
+    "imagem": "sol-nascente.jpg",
+    "nivel": 3,
+    "descricao": "Hotel fictício voltado à hospedagem de turistas e visitantes."
+  }
+]

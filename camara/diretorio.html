@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conheça as empresas associadas ao Conecta Fortaleza. Encontre serviços, produtos e negócios locais em Fortaleza, Ceará.">
+    <meta name="author" content="Francilene Ferreira">
+
+    <title>Diretório Câmara de Comércio | Conecta Fortaleza</title>
+
+    <meta property="og:title" content="Diretório Câmara de Comércio | Conecta Fortaleza">
+    <meta property="og:description" content="Encontre empresas e serviços locais em Fortaleza. Conheça os membros do Conecta Fortaleza.">
+    <meta property="og:image" content="https://francilene-byu.github.io/wdd231/camara/imagens/conecta-fortaleza.jpg">
+    <meta property="og:url" content="https://francilene-byu.github.io/wdd231/camara/diretorio.html">
+    <meta property="og:type" content="website">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+   
+    <link rel="stylesheet" href="../projeto/estilos/normalize.css">
+    <link rel="stylesheet" href="../projeto/estilos/telas-pequenas.css">
+    <link rel="stylesheet" href="../projeto/estilos/telas-grandes.css">
+
+    <link rel="icon" href="./favicon.ico?v=2" type="image/x-icon">
+
+    <script src="../scripts/navegacao.js" defer></script>
+    <script src="scripts/diretorio.js" defer></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <a class="brand" href="index.html">
+                <span class="brand-name">Conecta Fortaleza</span>
+                <span class="brand-tagline">Conectando negócios, fortalecendo Fortaleza.</span>
+            </a>
+            <button
+                id="ham-btn" 
+                class="hamburger" 
+                aria-label="Abrir menu"
+                aria-expanded="false"
+                aria-controls="nav-bar">
+            </button>
+
+            <nav id="nav-bar" class="navegacao">
+                <ul>
+                    <li><a href="index.html">Inicial</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="diretorio.html" class="active" aria-current="page">Diretório</a></li>
+                    <li><a href="associar.html">Associar</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-intro">
+            <h1>Diretório de Empresas</h1>
+            <p>
+                Descubra empresas e serviços que movimentam a economia de Fortaleza.
+                Conheça nossos associados e fortaleça os negócios locais.
+            </p>
+        </section>
+
+        <section class="directory-section">
+            <div class="directory-heading">
+                <h2>Nossos Associados</h2>
+
+                <div class="view-controls">
+                    <button id="grid-view" class="view-button active" aria-pressed="true">
+                        Grade
+                    </button>
+                    <button id="list-view" class="view-button" aria-pressed="false">
+                        Lista
+                    </button>
+                </div>
+            </div>
+
+            <div id="member-container" class="member-grid" aria-live="polite">
+                <p>Carregando empresas...</p>
+            </div>
+        </section>
+   
+
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-contact">
+                <h2>Conecta Fortaleza</h2>
+                <p>Fortaleza, Ceará - Brasil</p>
+                <p>contato@conectafortaleza.example</p>
+                <p>(85) 0000-0000</p>
+            </div>
+            <div class="social">
+                <a href="https://github.com/Francilene-BYU" target="_blank" rel="noopener noreferrer"><img src="../projeto/imagens/github.svg" alt="GitHub" width="16" height="16"></a>
+                <a href="https://www.linkedin.com/in/francilene-ferreira-00a88a1aa" target="_blank" rel="noopener noreferrer"><img src="../projeto/imagens/linkedin.svg" alt="LinkedIn" width="16" height="16"></a>
+                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><img src="../projeto/imagens/facebook.svg" alt="Facebook" width="16" height="16"></a>
+                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><img src="../projeto/imagens/twitter-x.svg" alt="Twitter" width="16" height="16"></a>
+            </div>
+        </div>
+        <p>&copy; <span id="anoAtual"></span> Francilene Ferreira | WDD 231 | Fortaleza, Ceará</p>
+        <p id="ultimaModificacao"></p>
+    </footer>
+
+</body>
+</html>
