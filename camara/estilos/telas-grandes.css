@@ -81,6 +81,16 @@
         grid-template-columns: repeat(3, minmax(0, 1fr));
     }
 
+    /* Reserva espaço para os cartões enquanto os dados carregam */
+    #member-container {
+        min-height: 1210px;
+    }
+
+    /* Remove a reserva extra quando o usuário escolhe o modo lista */
+    #member-container.member-list {
+        min-height: 0;
+    }
+
     /* ------ RODAPÉ ------ */
 
     .footer-content {

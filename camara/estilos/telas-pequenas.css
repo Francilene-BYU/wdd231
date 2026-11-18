@@ -161,6 +161,16 @@ header {
     margin-top: 20px;
 }
 
+/* Reserva espaço para os cartões enquanto os dados carregam */
+#member-container {
+    min-height: 2800px;
+}
+
+/* Remove a reserva extra quando o usuário escolhe o modo lista */
+#member-container.member-list {
+    min-height: 0;
+}
+
 .member-card {
     min-width: 0;
     padding: 16px;
