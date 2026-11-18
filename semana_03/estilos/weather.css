@@ -1,0 +1,76 @@
+
+/* Configurações gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eaf4fb;
+    color: #243746;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1rem;
+}
+
+/* Título */
+h1 {
+    text-align: center;
+    color: #174a6e;
+    font-size: 1.7rem;
+    margin-bottom: 2rem;
+}
+
+/* Área principal */
+main {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 420px;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+main p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+/* Temperatura */
+#temp-atual {
+    display: block;
+    color: #174a6e;
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+/* Ícone e descrição */
+figure {
+    margin-top: 1rem;
+}
+
+#icone-do-clima {
+    width: 120px;
+    height: 120px;
+}
+
+figcaption {
+    text-transform: capitalize;
+    font-size: 1.1rem;
+    color: #526777;
+}
+
+/* Rodapé */
+footer {
+    margin-top: auto;
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 0.85rem;
+    color: #526777;
+}
