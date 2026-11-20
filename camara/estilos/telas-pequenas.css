@@ -265,3 +265,188 @@ footer {
 .social a:hover {
     background-color: #ddd;
 }
+
+
+/* ========================================
+   CONECTA FORTALEZA - PÁGINA INICIAL S03
+   TELAS PEQUENAS
+======================================== */
+
+/* ------ HERO ------ */
+
+.hero {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background-color: #3D405B;
+}
+
+.hero-image {
+    display: block;
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+}
+
+.hero-content {
+    padding: 1.5rem;
+    color: #fff;
+    background-color: #3D405B;
+    text-align: center;
+}
+
+.hero-content h1 {
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.hero-button {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    z-index: 2;
+
+    display: inline-block;
+    padding: 0.8rem 1.4rem;
+    background-color: #9AC9EA;
+    color: #3D405B;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+/* ------ EVENTOS ------ */
+
+.events-section,
+.weather-section,
+.spotlight-section {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.events-section h2,
+.weather-section h2,
+.spotlight-section h2 {
+    color: #3D405B;
+    margin-bottom: 1rem;
+}
+
+.events-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.event-card {
+    padding: 1.2rem;
+    background-color: #f2f4f7;
+    border-left: 5px solid #9AC9EA;
+    border-radius: 8px;
+}
+
+.event-card h3 {
+    color: #3D405B;
+    margin-bottom: 0.7rem;
+}
+
+.event-card p {
+    line-height: 1.6;
+}
+
+/* ------ CLIMA ------ */
+
+.weather-section {
+    background-color: #f2f4f7;
+    border-radius: 10px;
+}
+
+.weather-section h3 {
+    margin: 1.5rem 0 1rem;
+    color: #3D405B;
+}
+
+.weather-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.weather-card img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.weather-card strong {
+    font-size: 2rem;
+    color: #3D405B;
+}
+
+.forecast-card {
+    padding: 1rem;
+    margin-bottom: 0.8rem;
+    background-color: #fff;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.forecast-card h4 {
+    margin-bottom: 0.6rem;
+    color: #3D405B;
+    text-transform: capitalize;
+}
+
+.forecast-card p {
+    margin: 0.4rem 0;
+}
+
+/* ------ EMPRESAS EM DESTAQUE ------ */
+
+.spotlight-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.spotlight-card {
+    padding: 1.2rem;
+    background-color: #f2f4f7;
+    border: 1px solid #d5dbe3;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.spotlight-card h3 {
+    color: #3D405B;
+    margin-bottom: 1rem;
+}
+
+.spotlight-logo {
+    display: block;
+    width: 100%;
+    max-width: 180px;
+    height: 120px;
+    margin: 0 auto 1rem;
+    object-fit: contain;
+}
+
+.spotlight-card p {
+    margin: 0.6rem 0;
+    line-height: 1.5;
+}
+
+.spotlight-card a {
+    display: inline-block;
+    margin-top: 0.8rem;
+    color: #3D405B;
+    font-weight: 700;
+}

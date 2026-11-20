@@ -100,4 +100,83 @@
         grid-template-columns: 2fr 1fr;
         align-items: center;
     }
+
+
+    /* ========================================
+       PÁGINA INICIAL S03 - TELAS GRANDES
+    ======================================== */
+
+    /* ------ HERO ------ */
+
+    .hero {
+        max-width: 1100px;
+        margin: 24px auto;
+        overflow: hidden;
+        border-radius: 12px;
+    }
+
+    .hero-image {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .hero-content {
+        padding: 2rem;
+        color: #fff;
+        background-color: #3D405B;
+        text-align: center;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+
+    /* ------ EVENTOS ------ */
+
+    .events-container {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    /* ------ CLIMA ------ */
+
+    #weather-forecast {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 1rem;
+    }
+
+    .forecast-card {
+        margin-bottom: 0;
+    }
+
+    /* ------ EMPRESAS EM DESTAQUE ------ */
+
+    .spotlight-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .spotlight-card {
+        height: 100%;
+    }
+
+    /* ------ LARGURAS E ALINHAMENTO ------ */
+
+    .events-section,
+    .weather-section,
+    .spotlight-section {
+        max-width: 900px;
+        padding: 20px;
+    }
+
+    /* Três empresas por linha em telas maiores */
+
+    @media only screen and (min-width: 64rem) {
+
+        .spotlight-grid {
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+        }
+    }
+
 }

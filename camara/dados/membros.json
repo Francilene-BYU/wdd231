@@ -3,7 +3,7 @@
   {
     "nome": "Sabor do Ceará",
     "endereco": "Avenida Exemplo, 100 - Meireles, Fortaleza - CE",
-    "telefone": "(85) 0000-0001",
+    "telefone": "(85) 99210-2699",
     "website": "https://example.com/sabor-do-ceara",
     "imagem": "sabor-do-ceara.jpg",
     "nivel": 3,
@@ -12,7 +12,7 @@
   {
     "nome": "Maré Alta Turismo",
     "endereco": "Rua Exemplo, 200 - Praia de Iracema, Fortaleza - CE",
-    "telefone": "(85) 0000-0002",
+    "telefone": "(85) 98715-2412",
     "website": "https://example.com/mare-alta",
     "imagem": "mare-alta.jpg",
     "nivel": 2,
@@ -21,7 +21,7 @@
   {
     "nome": "TechNord Sistemas",
     "endereco": "Avenida Exemplo, 300 - Aldeota, Fortaleza - CE",
-    "telefone": "(85) 0000-0003",
+    "telefone": "(85) 99259-6213",
     "website": "https://example.com/technord",
     "imagem": "technord.jpg",
     "nivel": 1,
@@ -30,7 +30,7 @@
   {
     "nome": "Casa Bela Decor",
     "endereco": "Rua Exemplo, 400 - Dionísio Torres, Fortaleza - CE",
-    "telefone": "(85) 0000-0004",
+    "telefone": "(85) 99291-2070",
     "website": "https://example.com/casa-bela",
     "imagem": "casa-bela.jpg",
     "nivel": 2,
@@ -39,7 +39,7 @@
   {
     "nome": "Fortaleza Contábil",
     "endereco": "Avenida Exemplo, 500 - Centro, Fortaleza - CE",
-    "telefone": "(85) 0000-0005",
+    "telefone": "(85) 99180-4910",
     "website": "https://example.com/fortaleza-contabil",
     "imagem": "fortaleza-contabil.jpg",
     "nivel": 1,
@@ -48,7 +48,7 @@
   {
     "nome": "Vida Leve Naturais",
     "endereco": "Rua Exemplo, 600 - Benfica, Fortaleza - CE",
-    "telefone": "(85) 0000-0006",
+    "telefone": "(85) 98904-8625",
     "website": "https://example.com/vida-leve",
     "imagem": "vida-leve.jpg",
     "nivel": 1,
@@ -57,7 +57,7 @@
   {
     "nome": "Sol Nascente Hotel",
     "endereco": "Avenida Exemplo, 700 - Praia do Futuro, Fortaleza - CE",
-    "telefone": "(85) 0000-0007",
+    "telefone": "(85) 99420-9424",
     "website": "https://example.com/sol-nascente",
     "imagem": "sol-nascente.jpg",
     "nivel": 3,
