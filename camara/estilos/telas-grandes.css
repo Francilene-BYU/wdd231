@@ -180,3 +180,38 @@
     }
 
 }
+
+
+/* ========================================
+   PÁGINA DE ASSOCIAÇÃO - DESKTOP
+======================================== */
+
+@media only screen and (min-width: 38rem) {
+
+    .membership-page {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 2rem;
+    }
+
+    .membership-layout {
+        grid-template-columns: 1.2fr 0.8fr;
+        align-items: start;
+        gap: 2rem;
+    }
+
+    .membership-cards {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .membership-cards h2 {
+        grid-column: 1 / -1;
+    }
+
+    .membership-card {
+        min-height: 190px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,280 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Associe sua empresa ao Conecta Fortaleza e fortaleça os negócios locais.">
+    <meta name="author" content="Francilene Ferreira">
+
+    <title>Associe-se | Conecta Fortaleza</title>
+
+    <meta property="og:title" content="Associe-se | Conecta Fortaleza">
+    <meta property="og:description" content="Conheça os níveis de associação e faça parte do Conecta Fortaleza.">
+    <meta property="og:image" content="https://francilene-byu.github.io/wdd231/camara/imagens/conecta-fortaleza.jpg">
+    <meta property="og:url" content="https://francilene-byu.github.io/wdd231/camara/associacao.html">
+    <meta property="og:type" content="website">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="estilos/normalize.css">
+    <link rel="stylesheet" href="estilos/telas-pequenas.css">
+    <link rel="stylesheet" href="estilos/telas-grandes.css">
+
+    <link rel="icon" href="./favicon.ico?v=2" type="image/x-icon">
+
+    <script src="scripts/navegacao.js" defer></script>
+    <script src="scripts/associacao.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <a class="brand" href="index.html">
+                <span class="brand-name">Conecta Fortaleza</span>
+                <span class="brand-tagline">Conectando negócios, fortalecendo Fortaleza.</span>
+            </a>
+
+            <button
+                id="ham-btn"
+                class="hamburger"
+                aria-label="Abrir menu"
+                aria-expanded="false"
+                aria-controls="nav-bar">
+            </button>
+
+            <nav id="nav-bar" class="navegacao">
+                <ul>
+                    <li><a href="index.html">Inicial</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="diretorio.html">Diretório</a></li>
+                    <li><a href="associacao.html" class="active" aria-current="page">Associar</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="membership-page">
+        <section class="page-intro">
+            <h1>Associe-se ao Conecta Fortaleza</h1>
+            <p>
+                Faça parte de uma rede que conecta empresas,
+                fortalece negócios e promove o desenvolvimento local.
+            </p>
+        </section>
+
+        <div class="membership-layout">
+
+            <section class="membership-form-section">
+                <h2>Formulário de Associação</h2>
+
+                <form method="get" action="agradecimento.html" class="membership-form">
+
+                    <label for="firstName">
+                        Nome:
+                        <input
+                            type="text"
+                            id="firstName"
+                            name="firstName"
+                            title="Informe seu primeiro nome."
+                            autocomplete="given-name"
+                            required>
+                    </label>
+
+                    <label for="lastName">
+                        Sobrenome:
+                        <input
+                            type="text"
+                            id="lastName"
+                            name="lastName"
+                            title="Informe seu sobrenome."
+                            autocomplete="family-name"
+                            required>
+                    </label>
+
+                    <label for="organizationTitle">
+                        Cargo na organização:
+                        <input
+                            type="text"
+                            id="organizationTitle"
+                            name="organizationTitle"
+                            title="Informe seu cargo na organização. Mínimo de sete caracteres; utilize letras, espaços ou hífens."
+                            autocomplete="organization-title"
+                            pattern="[A-Za-zÀ-ÿ -]{7,}"
+                            required>
+                    </label>
+
+                    <label for="email">
+                        E-mail:
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            title="Informe seu endereço de e-mail."
+                            autocomplete="email"
+                            placeholder="nome@empresa.com"
+                            required>
+                    </label>
+
+                    <label for="phone">
+                        Telefone:
+                        <input
+                            type="tel"
+                            id="phone"
+                            name="phone"
+                            title="Informe seu número de telefone."
+                            autocomplete="tel"
+                            required>
+                    </label>
+
+                    <label for="organization">
+                        Nome da organização:
+                        <input
+                            type="text"
+                            id="organization"
+                            name="organization"
+                            title="Informe o nome da organização."
+                            autocomplete="organization"
+                            required>
+                    </label>
+
+                    <label for="membershipLevel">
+                        Nível de associação:
+                        <select
+                            id="membershipLevel"
+                            name="membershipLevel"
+                            title="Selecione um nível de associação"
+                            required>
+                            <option value="" disabled selected>Selecione um nível</option>
+                            <option value="np">NP Membership</option>
+                            <option value="bronze">Bronze Membership</option>
+                            <option value="silver">Silver Membership</option>
+                            <option value="gold">Gold Membership</option>
+                        </select>
+                    </label>
+
+                    <label for="organizationDescription">
+                        Descrição da organização:
+                        <textarea
+                            id="organizationDescription"
+                            name="organizationDescription"
+                            title="Descreva brevemente sua organização."
+                            rows="5">
+                        </textarea>
+                    </label>
+
+                    <input type="hidden" id="timestamp" name="timestamp">
+
+                    <button type="submit">Enviar solicitação</button>
+                </form>
+            </section>
+
+            <section class="membership-cards">
+                <h2>Nossos níveis de associação</h2>
+
+                <article class="membership-card">
+                    <h3>NP Membership</h3>
+                    <p>Para organizações sem fins lucrativos.</p>
+                    <a href="#np-dialog">Conheça os benefícios</a>
+                </article>
+
+                <article class="membership-card">
+                    <h3>Bronze Membership</h3>
+                    <p>Uma oportunidade para iniciar sua participação.</p>
+                    <a href="#bronze-dialog">Conheça os benefícios</a>
+                </article>
+
+                <article class="membership-card">
+                    <h3>Silver Membership</h3>
+                    <p>Mais oportunidades de visibilidade e conexão.</p>
+                    <a href="#silver-dialog">Conheça os benefícios</a>
+                </article>
+
+                <article class="membership-card">
+                    <h3>Gold Membership</h3>
+                    <p>Maior destaque e oportunidades para sua empresa.</p>
+                    <a href="#gold-dialog">Conheça os benefícios</a>
+                </article>
+            </section>
+
+            <!-- Modais dos níveis de associação -->
+            <dialog id="np-dialog" class="membership-dialog">
+                <h2>NP Membership</h2>
+                <p>Ideal para organizações sem fins lucrativos.</p>
+                <ul>
+                    <li>Participação em atividades da Câmara.</li>
+                    <li>Acesso a oportunidades de networking.</li>
+                    <li>Divulgação institucional.</li>
+                </ul>
+                <button type="button" class="close-dialog">Fechar</button>
+            </dialog>
+
+            <dialog id="bronze-dialog" class="membership-dialog">
+                <h2>Bronze Membership</h2>
+                <p>Para empresas que desejam iniciar sua participação.</p>
+                <ul>
+                    <li>Participação em atividades da Câmara.</li>
+                    <li>Acesso a oportunidades de networking.</li>
+                    <li>Divulgação no diretório de associados.</li>
+                </ul>
+                <button type="button" class="close-dialog">Fechar</button>
+            </dialog>
+
+            <dialog id="silver-dialog" class="membership-dialog">
+                <h2>Silver Membership</h2>
+                <p>Para empresas que buscam maior visibilidade.</p>
+                <ul>
+                    <li>Todos os benefícios Bronze.</li>
+                    <li>Destaque em ações promocionais.</li>
+                    <li>Oportunidades adicionais de divulgação.</li>
+                </ul>
+                <button type="button" class="close-dialog">Fechar</button>
+            </dialog>
+
+            <dialog id="gold-dialog" class="membership-dialog">
+                <h2>Gold Membership</h2>
+                <p>Para empresas que desejam maior destaque.</p>
+                <ul>
+                    <li>Todos os benefícios Silver.</li>
+                    <li>Maior destaque nas ações da Câmara.</li>
+                    <li>Oportunidades especiais de divulgação.</li>
+                </ul>
+                <button type="button" class="close-dialog">Fechar</button>
+            </dialog>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-contact">
+                <h2>Conecta Fortaleza</h2>
+                <p>Fortaleza, Ceará - Brasil</p>
+                <p>contato@conectafortaleza.example</p>
+                <p>(85) 99615-1412</p>
+            </div>
+
+            <div class="social">
+                <a href="https://github.com/Francilene-BYU" target="_blank" rel="noopener noreferrer">
+                    <img src="../projeto/imagens/github.svg" alt="GitHub" width="16" height="16">
+                </a>
+                <a href="https://www.linkedin.com/in/francilene-ferreira-00a88a1aa" target="_blank" rel="noopener noreferrer">
+                    <img src="../projeto/imagens/linkedin.svg" alt="LinkedIn" width="16" height="16">
+                </a>
+                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                    <img src="../projeto/imagens/facebook.svg" alt="Facebook" width="16" height="16">
+                </a>
+                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                    <img src="../projeto/imagens/twitter-x.svg" alt="Twitter" width="16" height="16">
+                </a>
+            </div>
+        </div>
+
+        <p>&copy; <span id="anoAtual"></span> Francilene Ferreira | WDD 231 | Fortaleza, Ceará</p>
+        <p id="ultimaModificacao"></p>
+    </footer>
+</body>
+</html>
