@@ -540,6 +540,7 @@ footer {
     border-radius: 8px;
     text-align: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+    animation: cardEntrance 0.7s ease both;
 }
 
 .membership-card h3 {
@@ -594,9 +595,6 @@ footer {
 
 /* ANIMAÇÃO DE ENTRADA DOS CARTÕES */
 
-.membership-card {
-    animation: cardEntrance 0.7s ease both;
-}
 
 .membership-card:nth-of-type(2) {
     animation-delay: 0.15s;
